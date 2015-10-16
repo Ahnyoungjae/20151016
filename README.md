@@ -11,13 +11,13 @@ tar은 다운 받은 파일압축을 풀때 씀.
 
 다음시간에는 TSD로 실시간 날씨를 볼 수 있게끔 할 것 이다.
 
-아까 만든 TSD에 Data Input test(Restful 방법)
+#아까 만든 TSD에 Data Input test(Restful 방법)
 
-sudo yum install python-setuptools python-setuptools-devel
-sudo easy_install pip
-pip install requests
+                sudo yum install python-setuptools python-setuptools-devel
+                sudo easy_install pip
+                pip install requests
 
-vi post_test.py <- py는 파이썬형식으로 만드는것 
+        vi post_test.py <- py는 파이썬형식으로 만드는것 
 
         import time
         import requests
